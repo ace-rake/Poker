@@ -1,0 +1,15 @@
+Logic
+
+1) Server setup;
+2) Allow clients to connect
+3) Handle client incoming msgs
+4) Start game (through incoming command)
+5) Send incoming commands to game command handler
+
+
+
+Game logic
+1) Check if user is the active user
+2.1) If true handle command
+2.2) else continue
+3) Set next participating user as the active user
